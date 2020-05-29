@@ -1,5 +1,5 @@
 import React from 'react';
-import ProTable, { ProColumns } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns } from '@machinaai/pro-table';
 import { Space } from 'antd';
 
 const valueEnum = {

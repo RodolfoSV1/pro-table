@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Input } from 'antd';
-import ProTable, { ProColumns, ColumnsState } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns, ColumnsState } from '@machinaai/pro-table';
 
 const valueEnum = {
   0: 'close',

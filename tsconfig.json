@@ -18,7 +18,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "@rodolfosv1/pro-table": ["./src"]
+      "@machinaai/pro-table": ["./src"]
     }
   },
   "exclude": [

@@ -1,10 +1,10 @@
 {
-  "name": "@rodolfosv1/pro-table",
-  "version": "2.2.8-1",
+  "name": "@machinaai/pro-table",
+  "version": "2.2.8-0",
   "description": "Pro Table!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodolfosv1/pro-table.git"
+    "url": "git+https://github.com/machinaai/pro-table.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -87,7 +87,7 @@
     "style-loader": "^1.2.1",
     "stylelint": "^13.3.3",
     "typescript": "^3.3.3",
-    "umi": "3.1.2",
+    "umi": "3.1.3",
     "umi-plugin-githubpages": "^2.0.1",
     "umi-request": "^1.2.15",
     "webpack-bundle-analyzer": "^3.7.0",

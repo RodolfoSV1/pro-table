@@ -15,7 +15,7 @@ import ProTable, {
   msMYIntl,
   ActionType,
   // @ts-ignore
-} from '@rodolfosv1/pro-table';
+} from '@machinaai/pro-table';
 import request from 'umi-request';
 
 const intlMap = {

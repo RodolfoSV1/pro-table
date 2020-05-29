@@ -67,9 +67,9 @@ export default () => (
 ## Usage
 
 ```bash
-npm install @rodolfosv1/pro-table
+npm install @machinaai/pro-table
 # or
-yarn add @rodolfosv1/pro-table
+yarn add @machinaai/pro-table
 ```
 
 ## Demo

@@ -1,5 +1,5 @@
 import React from 'react';
-import ProTable from '@rodolfosv1/pro-table';
+import ProTable from '@machinaai/pro-table';
 
 const valueEnum = {
   0: 'close',

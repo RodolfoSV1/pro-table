@@ -1,4 +1,4 @@
-<h1 align="center">@rodolfosv1/pro-table</h1>
+<h1 align="center">@machinaai/pro-table</h1>
 
 <div align="center">
 
@@ -119,14 +119,14 @@ interface IValueEnum {
 ## Usage
 
 ```bash
-npm install @rodolfosv1/pro-table
+npm install @machinaai/pro-table
 # or
-yarn add @rodolfosv1/pro-table
+yarn add @machinaai/pro-table
 ```
 
 ```tsx
 import React, { useState } from 'react';
-import ProTable, { ProColumns } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns } from '@machinaai/pro-table';
 import { Input, Button } from 'antd';
 
 const columns: ProColumns[] = [

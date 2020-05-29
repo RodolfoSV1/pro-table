@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { PlusOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
-import ProTable, { ProColumns, ActionType } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns, ActionType } from '@machinaai/pro-table';
 
 const valueEnum = {
   0: 'close',

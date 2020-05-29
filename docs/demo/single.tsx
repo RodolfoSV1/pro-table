@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Drawer, Tag } from 'antd';
-import ProTable, { ProColumns, TableDropdown, ActionType } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns, TableDropdown, ActionType } from '@machinaai/pro-table';
 import request from 'umi-request';
 
 interface GithubIssueItem {
@@ -178,7 +178,7 @@ export default () => {
         actionRef={actionRef}
         request={async (params = {}) => {
           const data = await request<GithubIssueItem[]>(
-            'https://api.github.com/repos/rodolfosv1/react-design/issues',
+            'https://api.github.com/repos/machinaai/react-design/issues',
             {
               params: {
                 ...params,
@@ -188,7 +188,7 @@ export default () => {
             },
           );
           const totalObj = await request(
-            'https://api.github.com/repos/rodolfosv1/react-design/issues?per_page=1',
+            'https://api.github.com/repos/machinaai/react-design/issues?per_page=1',
             {
               params,
             },

@@ -1,7 +1,7 @@
 import React from 'react';
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Tag } from 'antd';
-import ProTable, { ProColumns, TableDropdown } from '@rodolfosv1/pro-table';
+import ProTable, { ProColumns, TableDropdown } from '@machinaai/pro-table';
 import request from 'umi-request';
 
 interface GithubIssueItem {
@@ -149,7 +149,7 @@ export default () => (
     columns={columns}
     request={async (params = {}) => {
       const data = await request<GithubIssueItem[]>(
-        'https://api.github.com/repos/rodolfosv1/react-design/issues',
+        'https://api.github.com/repos/machinaai/react-design/issues',
         {
           params: {
             ...params,
